@@ -108,3 +108,19 @@ h1 {
 }
 ```
 
+再再看代码：
+
+```shell
+$color: blue !default;
+h1 {
+	color: $color;
+}
+```
+
+代码转换后：
+
+```shell
+h1 {
+  color: blue;
+}
+```
