@@ -41,7 +41,6 @@ p {
 span {
   color: blue;
 }
-
 ```
 
 
@@ -50,7 +49,7 @@ span {
 
 ```shell
 h1 {
-  $color:blue;
+  $color: blue;
   color: $color;
 }
 
