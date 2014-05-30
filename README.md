@@ -5,6 +5,7 @@ sass-info
 
 * 是否有全局变量或者局部？
 * 局部变量的场景？
+* 默认值？
 
 
 ###### 代码片段一
@@ -67,4 +68,43 @@ p {
 
 1. 第一段代码里面看到，后面的p自己定义了变量color，后面会覆盖前面
 2. 第二段代码里面看到，h1里面定义了变量color，p没有定义，就报错了
+
+
+###### 再看看默认值
+
+先看代码：
+
+```shell
+$color: red;
+$color: blue !default;
+h1 {
+	color: $color;
+}
+```
+
+代码转换后：
+
+```shell
+h1 {
+  color: red;
+}
+```
+
+再看代码：
+
+```shell
+$color: blue !default;
+$color: red;
+h1 {
+	color: $color;
+}
+```
+
+代码转换后：
+
+```shell
+h1 {
+  color: red;
+}
+```
 
