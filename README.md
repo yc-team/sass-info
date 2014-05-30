@@ -124,3 +124,36 @@ h1 {
   color: blue;
 }
 ```
+
+###### 多个变量
+
+这个估计还是比较少有人用
+
+> nth($val, index)
+
+index是从1开始
+
+
+```shell
+$color: blue red;
+a {
+	color: nth($color, 1);
+
+	&:hover {
+		color: nth($color, 2);
+	}
+}
+```
+
+
+转换：
+
+```shell
+a {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+```
+
