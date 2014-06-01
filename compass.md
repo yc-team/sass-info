@@ -15,6 +15,8 @@ compass creat myproject
 
 #### 如何编译？
 
+* 一次性编译
+
 ```shell
 compass compile
 ```
@@ -23,3 +25,11 @@ compass compile
 
 > compass一般只编译改动的文件，如果需要把所有文件都编译，增加参数 --force
 
+
+* 自动编译
+
+```shell
+compass watch
+```
+
+只有scss文件有修改，就会自己编译
