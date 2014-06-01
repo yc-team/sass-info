@@ -133,7 +133,7 @@ h1 {
 ```shell
 $btnClass: btn !default;
 
-.#{bthClass} {
+.#{$bthClass} {
 	color: red;
 }
 ```
