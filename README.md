@@ -130,33 +130,41 @@ h1 {
 
 ###### 变量用在选择器
 
+```shell
 $btnClass: btn !default;
 
 .#{bthClass} {
 	color: red;
 }
+```
+
 
 转换：
 
+```shell
 .btn {
   color: red;
 }
+```
 
 
 ###### 变量用在属性
 
+```shell
 $borderDirection: top;
 .test {
-	border-#{$borderDirection}: 2px solid red;
+  border-#{$borderDirection}: 2px solid red;
 }
+```
 
 
 转换：
 
-
+```shell
 .test {
   border-top: 2px solid red;
 }
+```
 
 
 
