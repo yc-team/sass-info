@@ -6,6 +6,7 @@ sass-info
 * 是否有全局变量或者局部？
 * 局部变量的场景？
 * 默认值？
+* 变量用在属性或者选择器上？
 * 多个变量？
 
 
@@ -125,6 +126,43 @@ h1 {
   color: blue;
 }
 ```
+
+
+###### 变量用在选择器
+
+$btnClass: btn !default;
+
+.#{bthClass} {
+	color: red;
+}
+
+转换：
+
+.btn {
+  color: red;
+}
+
+
+###### 变量用在属性
+
+$borderDirection: top;
+.test {
+	border-#{$borderDirection}: 2px solid red;
+}
+
+
+转换：
+
+
+.test {
+  border-top: 2px solid red;
+}
+
+
+
+
+
+
 
 ###### 多个变量
 
