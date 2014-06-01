@@ -8,9 +8,9 @@ compass creat myproject
 
 会生成一个myproject的子目录，包含：
 
-1. config.rb
-2. sass
-3. stylesheets
+- config.rb
+- sass
+- stylesheets
 
 
 * 如何编译？
