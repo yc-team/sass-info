@@ -1,6 +1,6 @@
 ## 介绍一些compass命令相关的
 
-* 如何初始化？
+#### 如何初始化？
 
 ```shell
 compass creat myproject
@@ -13,7 +13,7 @@ compass creat myproject
 - stylesheets
 
 
-* 如何编译？
+#### 如何编译？
 
 ```shell
 compass compile
