@@ -95,3 +95,60 @@
   width: 10px;
 }
 ```
+
+
+* abs()
+
+取绝对值
+
+```shell
+.test {
+	width: abs(-10px);
+}
+```
+
+代码编译后：
+
+```shell
+.test {
+	width: 10px;
+}
+```
+
+
+* min()
+
+任意多个参数中最小的
+
+```shell
+.test {
+	width: min(10px ,1px ,20px);
+}
+```
+
+代码编译后：
+
+```shell
+.test {
+  width: 1px;
+}
+```
+
+* max()
+
+任意多个参数中最大的
+
+```shell
+.test {
+	width: max(10px ,1px ,20px);
+}
+```
+
+代码编译后：
+
+```shell
+.test {
+  width: 20px;
+}
+```
+
