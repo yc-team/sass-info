@@ -48,6 +48,8 @@ blue(#0000ff);  //255
 * S 饱和度： 0度是红色、120度是绿色、240度是蓝色
 * L 亮度
 
+下图来自w3cplus:
 
+![HSL](http://cdn1.w3cplus.com/sites/default/files/styles/print_image/public/hsl_top.jpg)
 
 
